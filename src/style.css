@@ -1,0 +1,40 @@
+.main-form,
+.registration-form,
+.interesting-fact-form,
+.additional-info-form,
+.additional-info-form fieldset {
+  margin-bottom: 20px;
+}
+
+.main-form div:not(:last-child),
+.registration-form div:not(:last-child),
+.interesting-fact-form div:not(:last-child),
+.additional-info-form div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.interesting-fact-form_radio {
+  display: inline-block;
+}
+
+.interesting-fact-form select {
+  overflow-y: auto;
+}
+
+.main-form_age_number {
+  width: 65px;
+}
+
+.main-form_birthday {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+  width: 148px;
+}
+
+.additional-info-form_textarea {
+  width: 177px;
+}
+
+.interesting-fact-form_sleep-time {
+  font-family: "Courier New", Courier, monospace;
+}
