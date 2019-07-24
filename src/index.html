@@ -54,33 +54,29 @@
         </label>
       </div>
     </fieldset>
-  </form>
 
-  <form id="registration-form" class="registration-form">
     <fieldset>
       <legend>Registration</legend>
       <div>
-        <label for="registration-form_email">
+        <label for="main-form_email">
           E-mail:
-          <input id="registration-form_email" type="email" name="email" placeholder="email@example.com" required
+          <input id="main-form_email" type="email" name="email" placeholder="email@example.com" required
             data-qa="field-placeholder">
         </label>
       </div>
 
       <div>
-        <label for="registration-form_password">
+        <label for="main-form_password">
           Password:
-          <input id="registration-form_password" type="password" name="password" minlength="4" maxlength="12">
+          <input id="main-form_password" type="password" name="password" minlength="4" maxlength="12">
         </label>
       </div>
     </fieldset>
-  </form>
 
-  <form id="interesting-fact-form" class="interesting-fact-form">
     <fieldset>
       <legend>An interesting fact about you!</legend>
       <span>Do you love cats?</span>
-      <div class="interesting-fact-form_radio">
+      <div class="main-form_radio">
         <label for="love-cats_yes">
           <input id="love-cats_yes" type="radio" name="love-cats" value="yes">
           Yes
@@ -92,24 +88,24 @@
       </div>
 
       <div>
-        <label for="interesting-fact-form_favorite-color">
+        <label for="main-form_favorite-color">
           What is your favorite color?
-          <input id="interesting-fact-form_favorite-color" type="color" name="favorite-color">
+          <input id="main-form_favorite-color" type="color" name="favorite-color">
         </label>
       </div>
 
       <div>
-        <label for="interesting-fact-form_sleep-time">
+        <label for="main-form_sleep-time">
           What time do you go to bed?
-          <input id="interesting-fact-form_sleep-time" class="interesting-fact-form_sleep-time" type="time"
+          <input id="main-form_sleep-time" class="main-form_sleep-time" type="time"
             name="sleep-time" step="01">
         </label>
       </div>
 
       <div>
-        <label for="interesting-fact-form_favorite-car">
+        <label for="main-form_favorite-car">
           What are your favorite brand of cars?
-          <select size="4" id="interesting-fact-form_favorite-car" name="favorite-car">
+          <select size="4" id="main-form_favorite-car" name="favorite-car">
             <option value="BMW">BMW</option>
             <option value="BMW">Audi</option>
             <option value="BMW">Lada</option>
@@ -119,28 +115,26 @@
       </div>
 
       <div>
-        <label for="interesting-fact-form_rate-work">
+        <label for="main-form_rate-work">
           How do you rate our work?
-          <input id="interesting-fact-form_rate-work" type="range" name="rate-work" min="0" max="100" value="0">
+          <input id="main-form_rate-work" type="range" name="rate-work" min="0" max="100" value="0">
         </label>
       </div>
     </fieldset>
-  </form>
 
-  <form id="additional-info-form" class="additional-info-form">
     <fieldset>
       <legend>Additional info:</legend>
       <div>
-        <label for="additional-info-form_textarea">
+        <label for="main-form_textarea">
           Comments:
-          <textarea id="additional-info-form_textarea" class="additional-info-form_textarea" name="comments"></textarea>
+          <textarea id="main-form_textarea" class="amain-form_textarea" name="comments"></textarea>
         </label>
       </div>
 
       <div>
-        <label for="additional-info-form_recommend">
+        <label for="main-form_recommend">
           <span>Would you recommend us?</span>
-          <select id="additional-info-form_recommend" name="recommend">
+          <select id="main-form_recommend" name="recommend">
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
@@ -149,7 +143,6 @@
     </fieldset>
     <button type="submit">Submit</button>
   </form>
-
   <script type="text/javascript" src="./main.js"></script>
 </body>
 
