@@ -5,11 +5,3 @@
 .main-form div:not(:last-child) {
   margin-bottom: 10px;
 }
-
-.main-form_radio {
-  display: inline-block;
-}
-
-.main-form_age {
-  width: 65px;
-}
